@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #000;}
+ul{list-style: none;}
+body{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-family: 'Pretendard-Regular';
+    min-width: 1320px;
+    height: 100%;
+    background: url(./page_img/backg.png) no-repeat;
+}
+
+.center{
+    width: 800px;
+    margin: 100px auto;
+}
+
+.btn{
+    position: fixed;
+    right: 5%;
+	bottom: 10%;
+	z-index: 99;
+}
+
+.swiper-button-next{
+    padding-right: 10px;
+}
+.swiper-button-prev{
+    padding-left: 10px;
+}

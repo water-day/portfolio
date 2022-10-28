@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+    <html lang="ko">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=1400">
+            <link href="./page_img/favicon04.png" rel="icon" type="image/png" sizes="32x32" >
+            <title>상세페이지</title>
+            <link rel="stylesheet" href="./page.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            	<!-- 슬라이드 css -->
+	<link href="css/swiper.css" rel="stylesheet" type="text/css"><!-- 수정X -->
+	<link href="css/slidebanner.css" rel="stylesheet" type="text/css"><!--디자인에 맞게 수정-->
+            <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Heebo:wght@300;500;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500;1,700&family=Source+Serif+Pro:wght@200;300;400;600;700;900&family=Tangerine:wght@400;700&family=Titillium+Web:ital,wght@0,600;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+        </head>
+        <body>
+        
+            
+          <!--헤더-->
+          <div id="main"> <!--메인배너-->
+            <div class="main_inner">
+                <a href="#" class="logo"><img src="./page_img/liebes_logo.png" alt="메뉴로고"></a>
+                </div>
+                <div id="header"> <!--가운데 창-->
+                <div class="header_inner"> <!--메뉴-->
+                    <ul class="nav">
+                        <li><a href="./brand.html">OUTER</a></li>
+                        <li><a href="./salon.html">TOP</a></li>
+                        <li><a href="./shop.html">BOTTOM</a></li>
+                        <li><a href="./reserve.html">BAG & SHOSE</a></li>
+                        <li><a href="./event.html">ACC</a></li>
+                        <li><a href="./event.html">EVENT</a></li>
+                    </ul>
+                </div> <!--메뉴-->
+            </div> <!--가운데 창-->
+        </div> <!--메인배너-->
+
+        <div class="sell">
+            <div class="sell_inn">
+            <div class="sell_center">
+            <div class="swiper-container slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./page_img/main1.png" alt="배너1"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./page_img/main2.png" alt="배너2"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"><img src="./page_img/main3.png" alt="배너3"></a>
+                    </div>
+                </div>
+                <!-- 화살표 버튼 -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- 블릿 버튼 -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="sell_right">
+                <h2> herringbone coat</h2>
+                <h4>194,000 원</h4>
+                <p class="p_1">적립금 : 1,940원 <br>
+                배송비 : 3,000원  (도서산간추가 5,000원)  <br>
+                   * 국내배송은 결제 완료후 <br> 
+                   평균 5 일 이내 출고됩니다. (공휴일 제외)</p>                
+                <p class="p_2">수량</p>
+                <input type="button" value="-" id="minus" onclick="minus()">
+                <input type="text" size="25" value="1" id="count">
+                <input type="button" value="+" id="plus" onclick="plus()">
+                <h5>
+                    * 포토리뷰 작성시 2,500 포인트 지급</h5>
+                    <div class="box2">
+                        <select name="box2-select1" id="box2-select1">
+                            <option value="시술1">컬러를 선택해주세요</option>
+                            <option value="시술2"> 컬러1</option>
+                            <option value="시술3"> 컬러2</option>
+                        </select>
+                    </div>
+                    <div class="sellcart">
+                <a href="#none" class="buying">구매하기</a>
+                <a href="#none" class="cart">장바구니</a>
+            </div>
+            </div>
+        </div><!--sell_inn-->
+        </div><!--sell-->
+
+        <div class="content">
+            <div class="con_inner">
+                <img src="./page_img/zara.png" alt="상세페이지">
+            </div>
+        </div>
+
+        <div class="tab">
+        <h4> 상품 필수 정보 </h4>
+        <table>
+            <tbody>
+            <tr>
+                <th>소재</th>
+                <td>겉감: 면 41% 폴리에스터 27% 모직 15% 비스코스 9% 기타섬유 8% / 안감 : 아세테이트 100%</td>
+            </tr>
+            <tr>
+                <th>색상</th>
+                <td>상세페이지 참조</td>
+            </tr>
+            <tr>
+                <th>제조국(원산지)</th>
+                <td>한국</td>
+            </tr>
+            <tr>
+                <th>품질보증기준</th>
+                <td>전자상거래법 준수</td>
+            </tr>
+            <tr>
+                <th>취급시 주의사항</th>
+                <td>상세페이지 참조</td>
+            </tr>
+            <tr>
+                <th>교환반품 및 품질보증 기준</th>
+                <td>관련법 및 소비자분쟁해결 규정에 따름</td>
+            </tr>
+            <tr>
+                <th>교환 및 반품주소</th>
+                <td>부산시 사하구 행복로 152</td>
+            </tr>
+            <tr>
+                <th>책임자 연락처</th>
+                <td>010 4321 3212</td>
+            </tr>
+        </tbody>
+        </table>
+        </div>
+
+        <ul class="btn_1">
+			<li><a href="#"><img src="./page_img/top.png" alt=""></a><li>
+			<li><a href="../index.html"><img src="./page_img/home.png" alt=""></a><li>
+		</ul>
+
+
+
+             <!--푸터-->
+     <div id="footer">
+        <div class="f_inner"> <!--가운데박스-->
+        <div class="f_logo">
+        <img src="./page_img/liebes_logo.png" alt="푸터로고" class="f_logo">
+        </div>
+        <div class="f_center">
+            <h6>COMPANY</h6>
+            <p>
+                리에베스 LIEBES <br>
+                 owner: 오혜림 <br>
+                 e-mail: wnjsrud322@naver.com  <br>
+                 고객센터: 010 - 6234 - 0840 <br>
+                 Business License: 521-88-01163 <br>
+                 주소: 부산  부산진구  전포대로 196  1층
+            </p>
+            <a href="#">이용약관｜개인정보방침</a>
+        </div>
+        <div class="f_right">
+            <h6>SOSIAL MEDIA</h6>
+            <a href="#"><img src="../detailpage/page_img/icon_facebook.png" alt=""></a>
+            <a href="#"><img src="../detailpage/page_img/icon_insta.png" alt=""></a>
+            <a href="#"><img src="../detailpage/page_img/icon_kakao.png" alt=""></a>
+            <a href="#"><img src="../detailpage/page_img/icon_youtube.png" alt=""></a>
+        </div>
+    </div> <!--가운데박스-->
+    </div>
+
+
+        
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+      <script src="./script/menu.js"></script>
+      <script src="./script/filter.js"></script>
+</body>
+</html>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+      <script src="./script/menu.js"></script>
+      <script src="./script/filter.js"></script>
+      <script src="./script/order.js"></script>  
+      	<!-- 슬라이드 js -->
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script><!-- 제이쿼리 라이브러리,수정X -->
+	<script src="script/swiper.min.js"></script><!-- 수정X -->
+	<script src="script/slidebanner.js"></script><!--디자인에 맞게 수정-->
+</body>
+</html>
